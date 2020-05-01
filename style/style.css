@@ -1,0 +1,155 @@
+.login-box,
+.register-box{
+    width: 35%;
+    margin: auto;
+    margin-top: 3%;
+    background-color: #f1f1f1;
+    padding: 40px 80px;
+    border-radius: 10px;
+}
+
+.login-box h2,
+.register-box h2{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.btn{
+    margin-bottom: 20px;
+}
+
+.user-post-form{
+    width: 45%;
+    margin: auto;
+    margin-top: 3%;
+    background-color: #f1f1f1;
+    padding: 40px 80px;
+    border-radius: 10%;
+}
+
+.user-post-form h1{
+    margin-bottom: 30px;
+}
+
+.user-post-form .logout{
+    margin-left: 90%;
+}
+
+.show-posts{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.post-card{
+    margin: 20px;
+    background: #f1f1f1;
+    padding: 20px 40px;
+    border-radius: 10px;
+    width: 33%;
+    flex-grow: 1;
+    height: min-content;
+    padding-bottom: 60px;
+}
+
+h1{
+    text-align: center;
+}
+
+.like-box,
+.dislike-box{
+    display: flex;
+    align-items: center;
+}
+.likes,
+.dislikes{
+    padding-left: 5px;
+}
+
+.like-btn,
+.dislike-btn{
+    background: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    text-align: left;
+}
+
+.like-btn img,
+.dislike-btn img{
+    height: 50px;
+    width: 50px;
+}
+
+hr{
+    border-top: 1px solid #00000024;
+}
+
+.comment-box{
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #00000024;
+}
+
+.comment-container{
+    margin-top: 30px;
+}
+
+button,a{
+    transition: .1s ease-in;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.post-button{
+    float: right;
+}
+
+.post-comment-btn{
+    margin-top: 10px;
+}
+
+.post-content{
+    padding: 30px;
+    background: #b0e0e636;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.post-content h4{
+    line-height: 1.8;
+}
+
+.single-comment{
+    background-color: #b0e0e636;
+    border-radius: 5px;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+}
+
+.comment-info{
+    font-style: italic;
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: right;
+}
+
+.posted-by b{
+    font-style: normal;
+}
+
+.comment-message{
+    font-size: 16px;
+}
+
+.post-page-logout{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
